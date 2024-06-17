@@ -38,3 +38,8 @@ export PATH=$PATH:/home/huangjunyao/.local/bin
 export CUDA_HOME=/usr/local/cuda-12.4/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_HOME/lib64
 export PATH=$PATH:$CUDA_HOME/bin
+
+# nvm env
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
