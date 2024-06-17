@@ -33,3 +33,8 @@ export PATH=$HOME/.cargo/bin:$PATH
 
 # python virtualenv
 export PATH=$PATH:/home/huangjunyao/.local/bin
+
+# cuda env
+export CUDA_HOME=/usr/local/cuda-12.4/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_HOME/lib64
+export PATH=$PATH:$CUDA_HOME/bin
